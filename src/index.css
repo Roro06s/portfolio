@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Hero reste fixe en arrière-plan - UNIQUEMENT sur HomePage */
+.homepage section:first-of-type {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Les sections suivantes passent par-dessus - UNIQUEMENT sur HomePage */
+.homepage section:not(:first-of-type) {
+  position: relative;
+  z-index: 2;
+}
+
+#projects {
+  position: relative;
+  z-index: 10;
+  background: white;
+}
