@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devkostudio.fr/sitemap.xml
+Sitemap: https://devko-studio.vercel.app/sitemap.xml

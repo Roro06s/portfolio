@@ -1,7 +1,7 @@
 // React 19 : les balises <title>, <meta>, <link> sont automatiquement
 // remontées dans le <head> sans aucune librairie externe.
 
-const SITE_URL = 'https://devkostudio.fr'
+const SITE_URL = 'https://devko-studio.vercel.app'
 const SITE_NAME = 'Devko Studio'
 const DEFAULT_IMAGE = `${SITE_URL}/assets/images/bggg.webp`
 
